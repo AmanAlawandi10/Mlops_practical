@@ -2,7 +2,7 @@ import logging
 import os
 
 # Define log file path
-LOG_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Logs"
+LOG_PATH = "c:\\Users\\Admin\\Desktop\\MLOPS-Learning\\MLOps-practical\\mlops2025-DSC\\Logs"
 os.makedirs(LOG_PATH, exist_ok=True)
 LOG_FILE = os.path.join(LOG_PATH, "mlops_training.log")
 
@@ -37,7 +37,7 @@ def log_error(message):
     print(f"ERROR: {message}")  # Optional console output
 
 def log_warning(message):
-    """
+    """-
     Logs a warning-level message.
     """
     logger = get_logger()

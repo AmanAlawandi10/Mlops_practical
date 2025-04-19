@@ -5,8 +5,8 @@ from ml_functions import training_pipeline, prediction_pipeline, evaluation_matr
 from helper_functions import log_info, log_error
 
 # Define paths
-DATA_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Data/raw/loan_risk_data.csv"
-ARTIFACTS_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts"
+DATA_PATH = "C:\\Users\\Admin\\Desktop\\MLOPS-Learning\\MLOps-practical\\mlops2025-DSC\\Data\\Raw\\loan_risk_data.csv"
+ARTIFACTS_PATH = "c:\\Users\\Admin\\Desktop\\MLOPS-Learning\\MLOps-practical\\mlops2025-DSC\\Artificats"
 os.makedirs(ARTIFACTS_PATH, exist_ok=True)
 PIPELINE_PATH = os.path.join(ARTIFACTS_PATH, "data_processing_pipeline.pkl")
 LABEL_ENCODER_PATH = os.path.join(ARTIFACTS_PATH, "label_encoder.pkl")
